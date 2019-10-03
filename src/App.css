@@ -1,0 +1,37 @@
+.App {
+	text-align: center;
+	background-image: url("/cool-background.png");
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.article {
+	border: 3px, black;
+	align-items: center;
+	height: 100px;
+	width: 300px;
+	margin: 15px 0;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+
+.article:hover {
+	height: 133px;
+	width: 400px;
+	margin-left: -50px;
+}
+
+#container {
+	width: 300px;
+	margin: 0 auto;
+}

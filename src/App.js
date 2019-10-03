@@ -1,0 +1,15 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Form from './components/Form.js';
+
+function App() {
+	return (
+		<div className="App">
+			<link rel="stylesheet" href="styles.css" />
+			<Form />
+		</div>
+	);
+}
+
+export default App;
